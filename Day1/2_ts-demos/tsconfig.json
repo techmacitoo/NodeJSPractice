@@ -1,7 +1,16 @@
 {
     "compilerOptions": {
-        "target": "ES5",
-        "outDir": "output"
+        "target": "ES2015",
+        "outDir": "output",
+        "module": "None",
+        "noEmitOnError": true,
+        "removeComments": true,
+        "lib": [
+            "ES2015"
+        ],
+        "typeRoots": [
+            "node_modules/@types/"
+        ]
     },
     "exclude": [
         "node_modules",

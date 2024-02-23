@@ -1,0 +1,8 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "Logger Module",
+  "main": "my-logger",
+  "author": "Manish Sharma",
+  "license": "ISC"
+}

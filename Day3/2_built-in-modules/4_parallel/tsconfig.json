@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "outDir": "./dist",                                  /* Specify an output folder for all emitted files. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "pretty": true,                                      /* Enable pretty output. */
+    "sourceMap": true,                                   /* Generates corresponding '.map' file. */
+    "importHelpers": true,                               /* Import emit helpers from 'tslib'. */
+    "noImplicitAny": false,                              /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": false,                           /* Enable strict null checks. */
+    "noImplicitThis": true,                              /* Enable error reporting when 'this' is given the type 'any'. */
+    "alwaysStrict": true,                                /* Parse in strict mode and emit "use strict" for each source file. */
+    "noUnusedLocals": true,                              /* Report errors on unused locals. */
+    "noUnusedParameters": false,                         /* Report errors on unused parameters. */
+    "noImplicitReturns": true,                           /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "noFallthroughCasesInSwitch": true,                  /* Report errors for fallthrough cases in switch statement. */
+    "moduleResolution": "node",                          /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "baseUrl": ".",                                      /* Base directory to resolve non-absolute module names. */
+    "allowSyntheticDefaultImports": true,                /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "experimentalDecorators": true,                      /* Enables experimental support for ES7 decorators. */
+    "emitDecoratorMetadata": true,                       /* Enables experimental support for emitting type metadata for decorators. */
+    "resolveJsonModule": true,                           /* Include modules imported with '.json' extension. */
+    "lib": [                                             /* Specify library files to be included in the compilation. */
+      "ES5",
+      "ES6",
+      "DOM",
+      "ES2015.Core",
+      "ES2015.Collection",
+      "ES2015.Iterable",
+      "ES2015.Promise",
+      "ES2015.Generator",
+      "ES2015.Proxy",
+      "ES2015.Reflect",
+      "ES2015.Symbol",
+      "ES2015.Symbol.WellKnown",
+      "ESNext.AsyncIterable"
+    ],                             
+  }
+}

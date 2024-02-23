@@ -6,4 +6,3 @@ class Program {
 
 Program.main('TypeScript');
 Program.main('Synechron');
-Program.main("MJ")

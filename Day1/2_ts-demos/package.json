@@ -1,5 +1,5 @@
 {
-  "name": "2_ts-demos",
+  "name": "ts-demos",
   "version": "1.0.0",
   "description": "Learning TypeScript",
   "main": "index.js",
@@ -8,11 +8,10 @@
     "version": "tsc -v",
     "compile": "tsc -w"
   },
-  "keywords": [],
-  "author": "Mrityunjay Dubey",
+  "author": "Manish Sharma",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^16.18.80",
+    "@types/node": "^20.11.17",
     "typescript": "^5.3.3"
   }
 }

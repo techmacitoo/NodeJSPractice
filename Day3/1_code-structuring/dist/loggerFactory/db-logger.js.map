@@ -1,0 +1,1 @@
+{"version":3,"file":"db-logger.js","sourceRoot":"","sources":["../../src/loggerFactory/db-logger.ts"],"names":[],"mappings":";;;AAEA,MAAa,QAAQ;IACjB,gBAAwB,CAAC;IAEzB,MAAM,CAAC,MAAM;QACT,OAAO,IAAI,QAAQ,EAAE,CAAC;IAC1B,CAAC;IAED,GAAG,CAAC,OAAe;QACf,OAAO,CAAC,GAAG,CAAC,GAAG,OAAO,sBAAsB,CAAC,CAAC;IAClD,CAAC;CACJ;AAVD,4BAUC;AAED,aAAa;AACb,oIAAoI"}

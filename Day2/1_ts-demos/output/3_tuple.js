@@ -1,0 +1,10 @@
+"use strict";
+var dataArr1;
+dataArr1 = [1, "Manish"];
+dataArr1 = ["Abhijeet", 2];
+dataArr1 = ["Abhijeet", "Manish"];
+dataArr1 = [1, 2];
+dataArr1 = [1, 2, 3, 4, 5];
+dataArr1 = [1, "Manish", "Pune", 411021];
+var dataRow;
+dataRow = [1, "Manish", [10, 20]];

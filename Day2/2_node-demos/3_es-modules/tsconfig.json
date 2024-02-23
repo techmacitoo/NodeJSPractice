@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "outDir": "dist",
+        "module": "ES2015",
+        "noEmitOnError": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "lib": [
+            "ES2015"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "js-demos"
+    ],
+    "include": [
+        "src"
+    ]
+}

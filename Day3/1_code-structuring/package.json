@@ -1,0 +1,24 @@
+{
+  "name": "code-structuring",
+  "version": "1.0.0",
+  "description": "Learning Node",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && npx tsc",
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts"
+  },
+  "author": "Manish Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.18.82",
+    "nodemon": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ts-demos",
+  "version": "1.0.0",
+  "description": "Learning TypeScript",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "version": "tsc -v",
+    "compile": "tsc -w"
+  },
+  "author": "Manish Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.18.80",
+    "typescript": "^5.3.3"
+  }
+}

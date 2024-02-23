@@ -1,0 +1,8 @@
+{
+  "name": "loggers",
+  "version": "1.0.0",
+  "description": "Logger Singleton",
+  "main": "logger",
+  "author": "Manish",
+  "license": "ISC"
+}

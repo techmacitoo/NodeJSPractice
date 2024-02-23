@@ -28,15 +28,15 @@
 // console.log(a1);
 // var a1;
 
-// var i = 20;             // Global or Namespace or Module Scope
+var i = 20;             // Global or Namespace or Module Scope
 
-// function test() {
-//     var i = "Hello";
-//     console.log("Inside Function, i is:", i);
-// }
+function test() {
+    var i = "Hello";
+    console.log("Inside Function, i is:", i);
+}
 
-// test();
-// console.log("Outside Function, i is:", i);
+test();
+console.log("Outside Function, i is:", i);
 
 // var does not support Block Scoping
 // var i = 20;             // Global or Namespace or Module Scope

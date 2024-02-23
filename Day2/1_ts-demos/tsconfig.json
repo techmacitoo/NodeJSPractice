@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "outDir": "output",
+        "module": "CommonJS",
+        "noEmitOnError": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "ES2015"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "js-demos"
+    ]
+}

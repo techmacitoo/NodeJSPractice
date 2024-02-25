@@ -1,0 +1,15 @@
+extends ../layout.pug
+
+block pagecontent
+    ul.list-group
+        li.list-group-item
+            a(href="/employees") Back to Employees
+
+    .row.mt-4
+        .col-md-8.offset-md-2
+            .card
+                .card-header.bg-primary.text-white
+                    h3 Employee Details
+                .card-body
+                    h5.card-title.text-info= `ID: ${employee.id}`
+                    p.card-text= `Name: ${employee.name}`

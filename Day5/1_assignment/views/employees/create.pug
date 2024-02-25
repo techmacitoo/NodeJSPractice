@@ -1,0 +1,22 @@
+extends ../layout.pug
+
+block pagecontent
+    ul.list-group.mt-3
+        li.list-group-item
+            a.text-decoration-none(href="/employees") Back to Employees
+
+    .row.justify-content-center.mt-3 
+        .col-sm-6 
+            form(method="post")
+                legend.text-center Add Employee Information
+                .mb-3 
+                    label(for="eid") Employee Id 
+                    input#eid.form-control(type="number", placeholder="Enter Employee Id", name="eid", value=employee.id)
+                .mb-3 
+                    label(for="ename") Employee Name 
+                    input#ename.form-control(type="text", placeholder="Enter Employee Name", name="ename", value=employee.name)
+                .row.g-2
+                    .col-6
+                        button.btn.btn-primary(type="submit", style='width: 100%;') Submit
+                    .col-6
+                        button.btn.btn-secondary(type="reset", style='width: 100%;') Reset

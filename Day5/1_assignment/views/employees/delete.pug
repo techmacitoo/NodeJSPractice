@@ -1,0 +1,14 @@
+extends ../layout
+
+block pagecontent
+    .container.mt-5
+        .text-center
+            h2.text-danger Are you sure you want to delete this record?
+            .card.mt-4
+                .card-body
+                    h3.card-title.text-info= `Employee ID: ${employee.id}`
+                    h4.card-text= `Name: ${employee.name}`
+            .mt-4
+                form.d-inline(method="post")
+                    button.btn.btn-danger.btn-lg(type="submit") Delete
+                a.btn.btn-secondary.btn-lg.ms-2(href="/employees") Cancel
